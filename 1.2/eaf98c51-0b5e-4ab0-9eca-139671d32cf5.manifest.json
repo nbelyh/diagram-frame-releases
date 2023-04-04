@@ -1,0 +1,101 @@
+{
+  "id": "eaf98c51-0b5e-4ab0-9eca-139671d32cf5",
+  "alias": "DiagramFrameWebPart",
+  "componentType": "WebPart",
+  "version": "1.2.678",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage",
+    "TeamsTab"
+  ],
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Other"
+      },
+      "title": {
+        "default": "Diagram Frame",
+        "de-de": "Diagramm Frame"
+      },
+      "description": {
+        "default": "The web part is a specialized widget to display a Microsoft Visio diagram in a modern SharePoint page. Similar to the 'Visio Web Access' web part in 'classic' SharePoint. Enables default zoom, page, chrome, and interactivity settings.",
+        "de-de": "Dieses Web Part ist ein erweitertes Widgket um Microsoft Visio Diagramme in Modernen Sharepoint Seiten anzuzeigen. (Ähnlich des 'Visio Web Access' Web Part im klassischen SharePoint.) Ermöglicht Standardzoom und Seite einzustellen sowie weitere Interaktionsmöglichkeiten."
+      },
+      "fullPageAppIconImageUrl": "https://unmanagedvisio.com/upload/spfx/diagram-frame-icon-11.svg",
+      "iconImageUrl": "https://unmanagedvisio.com/upload/spfx/diagram-frame-icon-11.svg",
+      "properties": {}
+    }
+  ],
+  "loaderConfig": {
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/dist/"
+    ],
+    "entryModuleId": "spfxvisio",
+    "scriptResources": {
+      "spfxvisio": {
+        "type": "path",
+        "path": "spfxvisio_bdbf35d699cd0ce517ba.js"
+      },
+      "WebPartStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "de-DE": "WebPartStrings_de-de_e8a2c1c2e1090f0afe06ac54a27d3162.js",
+          "en-US": "WebPartStrings_en-us_cc6f0f421e0294e7ffd862887de78316.js"
+        },
+        "defaultPath": "WebPartStrings_en-us_cc6f0f421e0294e7ffd862887de78316.js"
+      },
+      "@microsoft/sp-property-pane": {
+        "type": "component",
+        "id": "f9e737b7-f0df-4597-ba8c-3060f82380db",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-lodash-subset": {
+        "type": "component",
+        "id": "73e1dc6c-8441-42cc-ad47-4bd3659f8a3a",
+        "version": "1.15.2"
+      },
+      "ControlStrings": {
+        "type": "localizedPath",
+        "paths": {
+          "de-DE": "ControlStrings_de-de_8d34d276d729b000223388ef5b5b47f1.js",
+          "en-US": "ControlStrings_en-us_c9e81a19fdc1469fb7c1d7ffe291c776.js"
+        },
+        "defaultPath": "ControlStrings_en-us_c9e81a19fdc1469fb7c1d7ffe291c776.js"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b",
+        "version": "1.15.2"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0",
+        "version": "1.15.2"
+      },
+      "react": {
+        "type": "component",
+        "id": "0d910c1c-13b9-4e1c-9aa4-b008c5e42d7d",
+        "version": "16.13.1"
+      },
+      "react-dom": {
+        "type": "component",
+        "id": "aa0a46ec-1505-43cd-a44a-93f3a5aa460a",
+        "version": "16.13.1"
+      },
+      "VisioEmbed": {
+        "type": "path",
+        "path": "VisioEmbed_ccd8741a4a94e352df480c03932c34e6.js",
+        "globalName": "Visio"
+      },
+      "@microsoft/sp-http": {
+        "type": "component",
+        "id": "c07208f0-ea3b-4c1a-9965-ac1b825211a6",
+        "version": "1.15.2"
+      }
+    }
+  }
+}
